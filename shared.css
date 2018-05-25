@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900i');
+
 * {
 	/* It takes into considerarion padding and border for width and height */
 	/* The only way to make it standard for all the elements is putting it here with * selecctor */
