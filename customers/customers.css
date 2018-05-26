@@ -16,14 +16,18 @@ main {
 } */
 
 .testimonial__image-container {
-	max-width: 580px;
+	width: 60%;
+	max-width: 40rem;
 	box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+	transform: skewX(20deg);
+	overflow: hidden;
 }
 
 .testimonial__image {
 	width: 100%;
 	/* remove the blank space in the vertical shadow */
 	vertical-align: top;
+	transform: skewX(-20deg) scale(1.4);
 }
 
 .testimonial__info {
@@ -40,11 +44,9 @@ main {
 		align-items: center;
 		justify-content: space-around;
 	}
-
 	.testimonial__image-container {
 		width: 66%;
 	}
-
 	.testimonial__info {
 		width: 30%;
 	}
